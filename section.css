@@ -1,0 +1,114 @@
+body{
+    /*background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 18%, rgba(255,242,245,1) 100%);*/
+    
+    /*leaf*/
+    
+    background-color: #3c6b59;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 80 40' width='80' height='40'%3E%3Cpath fill='%2391ecc0' fill-opacity='0.44' d='M0 40a19.96 19.96 0 0 1 5.9-14.11 20.17 20.17 0 0 1 19.44-5.2A20 20 0 0 1 20.2 40H0zM65.32.75A20.02 20.02 0 0 1 40.8 25.26 20.02 20.02 0 0 1 65.32.76zM.07 0h20.1l-.08.07A20.02 20.02 0 0 1 .75 5.25 20.08 20.08 0 0 1 .07 0zm1.94 40h2.53l4.26-4.24v-9.78A17.96 17.96 0 0 0 2 40zm5.38 0h9.8a17.98 17.98 0 0 0 6.67-16.42L7.4 40zm3.43-15.42v9.17l11.62-11.59c-3.97-.5-8.08.3-11.62 2.42zm32.86-.78A18 18 0 0 0 63.85 3.63L43.68 23.8zm7.2-19.17v9.15L62.43 2.22c-3.96-.5-8.05.3-11.57 2.4zm-3.49 2.72c-4.1 4.1-5.81 9.69-5.13 15.03l6.61-6.6V6.02c-.51.41-1 .85-1.48 1.33zM17.18 0H7.42L3.64 3.78A18 18 0 0 0 17.18 0zM2.08 0c-.01.8.04 1.58.14 2.37L4.59 0H2.07z'%3E%3C/path%3E%3C/svg%3E");
+    background-attachment: fixed;
+
+/*lineas*/
+/*
+background-color: #e0a55c;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg stroke='%23c0c0c0' stroke-width='66.7' stroke-opacity='0.05' %3E%3Ccircle fill='%23e0a55c' cx='0' cy='0' r='1800'/%3E%3Ccircle fill='%23e29b5c' cx='0' cy='0' r='1700'/%3E%3Ccircle fill='%23e3905d' cx='0' cy='0' r='1600'/%3E%3Ccircle fill='%23e3865f' cx='0' cy='0' r='1500'/%3E%3Ccircle fill='%23e17d63' cx='0' cy='0' r='1400'/%3E%3Ccircle fill='%23de7367' cx='0' cy='0' r='1300'/%3E%3Ccircle fill='%23da6b6c' cx='0' cy='0' r='1200'/%3E%3Ccircle fill='%23d46372' cx='0' cy='0' r='1100'/%3E%3Ccircle fill='%23cd5c77' cx='0' cy='0' r='1000'/%3E%3Ccircle fill='%23c4567d' cx='0' cy='0' r='900'/%3E%3Ccircle fill='%23b95282' cx='0' cy='0' r='800'/%3E%3Ccircle fill='%23ad4e87' cx='0' cy='0' r='700'/%3E%3Ccircle fill='%23a04c8c' cx='0' cy='0' r='600'/%3E%3Ccircle fill='%23914a90' cx='0' cy='0' r='500'/%3E%3Ccircle fill='%23804992' cx='0' cy='0' r='400'/%3E%3Ccircle fill='%236e4994' cx='0' cy='0' r='300'/%3E%3Ccircle fill='%23594995' cx='0' cy='0' r='200'/%3E%3Ccircle fill='%23404894' cx='0' cy='0' r='100'/%3E%3C/g%3E%3C/svg%3E");
+background-attachment: fixed;
+background-size: cover;*/
+
+
+}
+section{
+    width: 80%;
+    display:block;
+    margin: 50px auto;
+    text-align: center;
+
+}
+.productos h3{
+    color: aliceblue;
+    /*TODO*/
+}
+.descarga{
+    background-color: var(--colorF);
+    padding: 10% 5%;
+    border-bottom-left-radius: 8%;
+    border-top-right-radius: 8%;
+    margin: 5% 0;
+    border: 5px dashed var(--colorC);
+    
+}
+
+.descarga a{
+    text-decoration: none;
+    color: rgb(42, 209, 0);
+    font-size: 1.3em;
+}
+.descarga a:hover{
+    color: rgb(0, 178, 209);
+}
+h3{
+    font-family: 'Inter', sans-serif;
+}
+.descarga h3{
+    color: var(--colorG);
+}
+/********************  720 X 1024 ****************************/
+@media (min-width: 720px){
+    
+    .descarga h3{
+        font-size: 1.5em;
+    }
+    .descarga a{
+        font-size: 2.em;
+    }
+}
+/********************  1024 X 1366****************************/
+@media (min-width: 1024px){
+    .descarga{
+        width: 80%;
+        margin: auto;
+        border: 8px dashed var(--colorC);
+    }
+    .descarga h3{
+        font-size: 1.8em;
+    }
+    .descarga a{
+        font-size: 2.2em;
+    }
+}
+
+/********************  1280 X 800***************************/
+@media (min-width: 1280px){
+    section{
+        margin:auto;
+        margin-top: 5%;
+        margin-bottom: 10%;
+    }
+    .descarga{
+        width: 60%;
+        padding: 5%;
+        margin: auto;
+        border: 10px dashed var(--colorC);
+    }
+}
+/********************  1440 X ...***************************/
+@media (min-width: 1440px){
+    /*todo ok*/
+}
+/********************  1 X ...***************************/
+@media (min-width: 1600px){
+    section{
+        margin:auto;
+        margin-top: 4%;
+        margin-bottom: 5%;
+    }
+    .descarga{
+        width: 50%;
+    }
+    .descarga h3{
+        font-size: 1.5em;
+    }
+    .descarga a{
+        font-size: 2em;
+    }
+}

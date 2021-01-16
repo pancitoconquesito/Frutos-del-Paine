@@ -1,0 +1,175 @@
+:root{
+    --colorA:rgb(181, 186, 111);
+    --colorB:rgb(192, 192, 192);
+    --colorC:rgb(224, 156, 101);
+    --colorD:rgb(148, 103, 52);
+    --colorE:rgb(120, 224, 79);
+    --colorF:rgb(219, 245, 215);
+    --colorG:rgb(78, 18, 3);
+    --colorLuzInset:rgb(99, 96, 10);
+    --direccion:"https://i.gifer.com/54O2.gif";
+}
+*{
+    font-size: 16px;
+    
+}
+.paine{
+    background-image: url("https://i.gifer.com/MuJ4.gif");
+    /*background-color: rgb(67, 47, 85);*/
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    padding: 15% 0%;   
+}
+
+.gif{
+    
+    background-image: url("img/fondo.gif");
+    width: 100%;
+    background-size: 50%;
+    background-position: center center;
+
+}
+
+.circulo{
+    width: 60%;
+    height: auto;
+    background-color: rgba(236, 255, 151, 0.15);
+
+    border-radius: 50%;
+    display:block;
+    margin:auto;
+    text-align: center;
+    backdrop-filter: blur(4px);
+    border:5px solid rgba(253, 253, 253, 0.3);
+}
+
+.circulo img{
+    width: 30%;
+    padding-top: 8%;
+}
+.circulo .letra{
+    position: relative;
+    top: 0px;
+    padding-bottom: 15%;
+}
+.circulo .letra h1{
+    
+    font-size: 1.3em;
+    color: var(--colorA);
+    font-family: 'Roboto', sans-serif;
+}
+.circulo .letra h2{
+    font-size: 0.6em;
+    color: var(--colorB);
+    font-family: 'Roboto', sans-serif;
+}
+
+/********************  720 X 1024 ****************************/
+@media (min-width: 720px){
+    .circulo .letra h1{
+        font-size: 2.8em;
+    }
+    .circulo .letra h2{
+        font-size: 1.5em;
+    }
+    .circulo{
+        border:7px solid rgba(253, 253, 253, 0.3);
+    }
+}
+/********************  1024 X 1366****************************/
+@media (min-width: 1024px){
+    .paine{
+        padding: 2% 0%;   
+    }
+    .circulo{
+        width: 50%;
+        
+    }
+    .circulo .letra h1{
+        font-size: 3.2em;
+    }
+    .circulo .letra h2{
+        font-size: 1.8em;
+    }
+    .circulo{
+        border:7px solid rgba(253, 253, 253, 0.3);
+    }
+}
+
+/********************  1280 X 800***************************/
+@media (min-width: 1280px){
+    .paine{
+        padding: 5% 5%;   
+    }
+    .circulo{
+        width: 40%;
+        
+    }
+    .circulo img{
+        width: 20%;
+    }
+    .circulo .letra h1{
+        font-size: 3em;
+    }
+    .circulo .letra h2{
+        font-size: 1.8em;
+    }
+    .circulo{
+        border:10px solid rgba(253, 253, 253, 0.3);
+    }
+}
+/********************  1440 X ...***************************/
+@media (min-width: 1440px){
+
+    .paine{
+        padding: 5% 0%; 
+        
+    }
+    .circulo{
+        width: 36%; 
+    }
+    .circulo img{
+        width: 25%;
+        padding-top: 70px;
+        padding-bottom: 20px;
+    }
+    .circulo .letra h1{
+        font-size: 3.2em;
+    }
+    .circulo .letra h2{
+        font-size: 1.9em;
+    }
+    .circulo{
+        border:12px solid rgba(253, 253, 253, 0.3);
+    }
+
+}
+/********************  1600 X ...***************************/
+@media (min-width: 1600px){
+
+    .paine{
+        padding: 5% 0%; 
+        
+    }
+    .circulo{
+        width: 30%; 
+    }
+    .circulo img{
+        width: 25%;
+        padding-top: 70px;
+        padding-bottom: 20px;
+    }
+    .circulo .letra h1{
+        font-size: 3.2em;
+    }
+    .circulo .letra h2{
+        font-size: 1.9em;
+    }
+    .circulo{
+        border:12px solid rgba(253, 253, 253, 0.3);
+    }
+
+}

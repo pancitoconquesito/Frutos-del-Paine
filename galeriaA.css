@@ -1,0 +1,87 @@
+.productos{
+    width: 110%;
+    position: relative;
+    left: -5%;
+}
+.productos h3{
+    text-shadow: 5px 3px 4px rgb(17, 17, 17);
+}
+.galeriaImg{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--colorC);
+    padding: 5% 0;
+    border-bottom-left-radius: 8%;
+    border-top-right-radius: 8%;
+    border: 3px solid var(--colorD);
+
+    box-shadow: 0px 0px 33px 0px var(--colorLuzInset) inset;
+-webkit-box-shadow: 0px 0px 33px 0px var(--colorLuzInset) inset;
+-moz-box-shadow: 0px 0px 33px 0px var(--colorLuzInset) inset;
+}
+.galeriaImg a{
+    margin: 2%;
+    width: 42%;
+}
+.galeriaImg img{
+    width: 100%;
+    border-radius: 5%;
+    transition: 0.3s;
+
+    box-shadow: -6px 10px 9px 0px rgba(0,0,0,0.44);
+    -webkit-box-shadow: -6px 10px 9px 0px rgba(0,0,0,0.44);
+    -moz-box-shadow: -6px 10px 9px 0px rgba(0,0,0,0.44);
+}
+.galeriaImg img:hover{
+    filter: contrast(1.25);
+    box-shadow: -10px 8px 27px 1px rgba(0,0,0,0.44);
+    -webkit-box-shadow: -10px 8px 27px 1px rgba(0,0,0,0.44);
+    -moz-box-shadow: -10px 8px 27px 1px rgba(0,0,0,0.44);
+}
+
+
+/********************  720 X 1024 ****************************/
+@media (min-width: 720px){
+    .productos h3{
+        font-size: 1.5em;
+    }
+}
+/********************  1024 X 1366****************************/
+@media (min-width: 1024px){
+    .productos h3{
+        font-size: 2em;
+    }
+    .galeriaImg a{
+        margin: 2%;
+        width: 28%;
+    }
+}
+
+/********************  1280 X 800***************************/
+@media (min-width: 1280px){
+    .galeriaImg a{
+        margin: 2%;
+        width: 20%;
+    }
+    .galeriaImg{
+        padding: 1% 0;
+    }
+}
+/********************  1440 X ...***************************/
+@media (min-width: 1440px){
+/*todo ok*/
+}
+/********************  1600 X ...***************************/
+@media (min-width: 1600px){
+    .galeriaImg a{
+        margin: 2%;
+        width: 15%;
+    }
+
+    .galeriaImg{
+        border-bottom-left-radius: 5%;
+        border-top-right-radius: 5%;
+    }
+}

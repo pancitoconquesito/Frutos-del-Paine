@@ -1,0 +1,96 @@
+footer{
+    width: 100%;
+    background: linear-gradient(var(--colorD), #0e3547);
+    height: 200px;
+    text-align: center;
+    padding: 5% 0;
+    
+    border-top: 5px solid var(--colorA);
+}
+.celu{
+    padding-top: 5%;
+}
+.celu a{
+    text-decoration: none;
+    color: darkkhaki;
+    transition: 0.3s;
+}
+.celu a:hover{
+    color: rgb(193, 255, 79);
+}
+.celu a span{
+    color: cornsilk;
+    transition: 0.3s;
+}
+.celu a:hover span{
+    color: rgb(0, 255, 106);
+}
+
+footer img{
+    width: 12%;
+    transition: 0.4s;
+}
+footer img:hover{
+    filter: brightness(1.5);
+}
+footer p{
+    color: darkkhaki;
+    transition: 0.3s;
+}
+
+footer p:hover{
+    color: rgb(193, 255, 79);
+}
+
+/********************  720 X 1024 ****************************/
+@media (min-width: 720px){
+    footer{
+        height: 350px;
+        padding: 6% 0;
+    }
+    .celu a strong{
+        font-size: 1.6em;
+    }
+    .celu a strong span{
+        font-size: 1.1em;
+    }
+}
+/********************  1024 X 1366****************************/
+@media (min-width: 1024px){
+    footer{
+        height: 480px;
+        padding: 6% 0;
+    }
+    .celu a strong{
+        font-size: 2.2em;
+    }
+    .celu a strong span{
+        font-size: 1.2em;
+    }
+}
+
+/********************  1280 X 800***************************/
+@media (min-width: 1280px){
+    footer{
+        height: 520px;
+        padding: 4% 0;
+    }
+}
+/********************  1440 X ...***************************/
+@media (min-width: 1440px){
+    footer img{
+        width: 10%;
+    }
+}
+/********************  1600 X ...***************************/
+@media (min-width: 1600px){
+    footer img{
+        width: 6%;
+    }
+    .celu a strong{
+        font-size: 2em;
+    }
+    .celu a strong span{
+        font-size: 1em;
+    }
+}

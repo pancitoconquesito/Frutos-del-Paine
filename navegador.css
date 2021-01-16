@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+}
+#header {
+    margin-top: 0%;
+    width:100%;
+    background-color:var(--colorD);
+    text-align: center;
+    padding: 1px 0;
+
+}
+li{
+    text-shadow: -2px 3px 4px rgb(17, 17, 17);
+}
+ul, ol {
+    list-style:none;
+}
+
+.nav > li {
+    display: inline-block;
+    
+}
+
+.nav li a {
+    background-color:var(--colorD);
+    color:#fff;
+    text-decoration:none;
+    padding: 14px 18px;
+    display:block;
+    transition: 0.3s;
+}
+
+.nav li a:hover {
+    background-color:var(--colorC);
+}
+
+.nav li ul {
+    display:none;
+    position:absolute;
+    min-width:140px;
+}
+
+
+.nav li:hover > ul {
+    display:block;
+    
+}
+
+.nav li ul li {
+    position:relative;
+    top: 0;
+    left: -35%;
+}
+
+.nav li ul li ul {
+    /*right:-140px;*/
+
+    top:0px;
+}
+
+
+
+/********************  720 X 1024 ****************************/
+@media (min-width: 720px){
+    .nav li a {
+        padding: 20px 80px;
+    }
+    .nav li ul li {
+        left: -15%;
+    }
+}
+
+/********************  1024 X 1366****************************/
+@media (min-width: 1024px){
+    
+    .nav li a {
+        font-size: 1.5em;
+    }
+    .nav li a {
+        padding: 20px 100px;
+    }
+}
+
+/********************  1280 X 800***************************/
+@media (min-width: 1280px){
+    /*todo ok*/
+}
+/********************  1440 X ...***************************/
+@media (min-width: 1440px){
+    
+}
