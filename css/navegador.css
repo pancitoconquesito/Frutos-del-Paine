@@ -15,7 +15,10 @@ li{
 ul, ol {
     list-style:none;
 }
-
+.nav{
+    position: relative;
+    z-index: 10;
+}
 .nav > li {
     display: inline-block;
     
@@ -49,7 +52,7 @@ ul, ol {
 .nav li ul li {
     position:relative;
     top: 0;
-    left: -35%;
+    left: -30%;
 }
 
 .nav li ul li ul {
@@ -63,7 +66,10 @@ ul, ol {
 /********************  720 X 1024 ****************************/
 @media (min-width: 720px){
     .nav li a {
-        padding: 20px 80px;
+        font-size: 1.2em;
+    }
+    .nav li a {
+        padding: 20px 50px;
     }
     .nav li ul li {
         left: -15%;
@@ -77,13 +83,19 @@ ul, ol {
         font-size: 1.5em;
     }
     .nav li a {
-        padding: 20px 100px;
+        padding: 20px 60px;
+    }
+    .nav li ul li {
+        left: -10%;
     }
 }
 
 /********************  1280 X 800***************************/
 @media (min-width: 1280px){
     /*todo ok*/
+    .nav li a {
+        font-size: 1em;
+    }
 }
 /********************  1440 X ...***************************/
 @media (min-width: 1440px){

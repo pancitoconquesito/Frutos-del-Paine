@@ -49,10 +49,10 @@ footer p:hover{
         padding: 6% 0;
     }
     .celu a strong{
-        font-size: 1.6em;
+        font-size: 1.2em;
     }
     .celu a strong span{
-        font-size: 1.1em;
+        font-size: 1em;
     }
 }
 /********************  1024 X 1366****************************/
@@ -62,10 +62,10 @@ footer p:hover{
         padding: 6% 0;
     }
     .celu a strong{
-        font-size: 2.2em;
+        font-size: 1.5em;
     }
     .celu a strong span{
-        font-size: 1.2em;
+        font-size: 1em;
     }
 }
 
@@ -74,6 +74,12 @@ footer p:hover{
     footer{
         height: 520px;
         padding: 4% 0;
+    }
+    .celu a strong{
+        font-size: 1em;
+    }
+    .celu a strong span{
+        font-size: 1em;
     }
 }
 /********************  1440 X ...***************************/
@@ -88,7 +94,7 @@ footer p:hover{
         width: 6%;
     }
     .celu a strong{
-        font-size: 2em;
+        font-size: 1em;
     }
     .celu a strong span{
         font-size: 1em;
