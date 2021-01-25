@@ -29,8 +29,8 @@ function crearAvisos(colProducto){
         let imgCont = document.createElement('DIV');
         imgCont.setAttribute("class","imgcont"); 
         let newImg = document.createElement('IMG');
-        newImg.setAttribute("src","../img/"+productoActual.dirImagen);
-        newImg.setAttribute("alt","foto de" + productoActual.nombre);
+        newImg.setAttribute("src","img/"+productoActual.dirImagen);
+        newImg.setAttribute("alt","foto de " + productoActual.nombre);
         newImg.setAttribute("title",productoActual.nombre);
         //add
         imgCont.appendChild(newImg);
